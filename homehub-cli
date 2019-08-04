@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+docker run --rm jamesnetherton/homehub-cli $@ --huburl=http://192.168.1.254 --username=admin --password=9av9abcd 
+

@@ -1,0 +1,9 @@
+metrics:
+  - metric: ConnectedDevices
+    filter: "sed 1,4d | wc -l"
+  - metric: InternetConnectionStatus
+    filter: "grep -q UP ;echo $?"
+  - metric: UpstreamSyncSpeed
+  - metric: DownstreamSyncSpeed
+  - metric: DataReceived
+  - metric: DataSent
